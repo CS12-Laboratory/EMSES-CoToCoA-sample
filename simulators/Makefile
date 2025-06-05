@@ -1,5 +1,6 @@
 all:
-	make -C requester/lib/cotocoa/src
+	chmod u+x setup-requester.sh
+	./setup-requester.sh
 	make -C coupler
 	make -C requester requester
 	make -C worker

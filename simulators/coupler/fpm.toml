@@ -1,0 +1,16 @@
+# ===== project metadata =====
+name = "coupler"
+version = "1.0.0"
+license = ""
+author = "CS12-Laboratory"
+maintainer = "j-nakazono@stu.kobe-u.ac.jp"
+copyright = "CS12-Laboratory"
+
+[build]
+external-modules = ["mpi"]
+
+[dependencies]
+ctca = { git = "https://github.com/Nkzono99/cotocoa.git" }
+
+[[executable]]
+name = "coupler"

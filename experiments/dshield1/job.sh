@@ -10,7 +10,7 @@ module load hdf5/1.12.2_intel-2022.3-impi
 module load fftw/3.3.10_intel-2022.3-impi
 
 date
-srun ./mpiemses3D plasma.inp
+srun ../../simulators/requester/bin/mpiemses3D plasma.inp
 echo ...done
 /LARGE2/gr10451/share/y-miyake/anaconda3/bin/python3 generate_xdmf3.py nd1p00_0000.h5 nd2p00_0000.h5 phisp00_0000.h5
 /LARGE2/gr10451/share/y-miyake/anaconda3/bin/python3 generate_xdmf3.py ex00_0000.h5 ey00_0000.h5 ez00_0000.h5

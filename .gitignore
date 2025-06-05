@@ -24,3 +24,5 @@ oltime
 pbody*
 seyield
 volt
+*.i90
+**/bin/*

@@ -16,7 +16,7 @@ export EMSES_DEBUG=no
 date
 
 rm *_0000.h5
-srun ./mpiemses3D plasma.inp
+srun ../../simulators/requester/bin/mpiemses3D plasma.inp
 
 date
 
