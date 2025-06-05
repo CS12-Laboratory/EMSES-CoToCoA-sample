@@ -22,10 +22,10 @@ git clone https://github.com/kmr-gks/EMSES-CoToCoA-sample.git
 cd EMSES-CoToCoA-sample
 ```
 
-EMSESのクローン (`recursive`オプションが必要です)
+EMSESのクローン
 
 ```bash
-git clone --recursive https://github.com/Nkzono99/MPIEMSES3D.git
+git clone https://github.com/CS12-Laboratory/MPIEMSES3D.git
 ```
 
 requesterに名前変更
@@ -43,6 +43,7 @@ module m_ctcamain
     use oh_type
     use paramt
     use allcom
+    use ctca
 #define OH_LIB_LEVEL 3
 #include "ohhelp_f.h"
     implicit none
